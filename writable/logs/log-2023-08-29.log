@@ -1,0 +1,40 @@
+CRITICAL - 2023-08-29 07:38:39 --> Invalid file: v_user.php
+#0 C:\xampp\htdocs\kafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_user.php')
+#1 C:\xampp\htdocs\kafe\system\Common.php(1089): CodeIgniter\View\View->render('v_user', Array, true)
+#2 C:\xampp\htdocs\kafe\app\Controllers\User.php(18): view('v_user', Array)
+#3 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\User->index()
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-29 12:12:27 --> Invalid file: v_user.php
+#0 C:\xampp\htdocs\kafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_user.php')
+#1 C:\xampp\htdocs\kafe\system\Common.php(1089): CodeIgniter\View\View->render('v_user', Array, true)
+#2 C:\xampp\htdocs\kafe\app\Controllers\User.php(18): view('v_user', Array)
+#3 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\User->index()
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-29 12:12:32 --> Invalid file: kajur.php
+#0 C:\xampp\htdocs\kafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kajur.php')
+#1 C:\xampp\htdocs\kafe\system\Common.php(1089): CodeIgniter\View\View->render('kajur', Array, true)
+#2 C:\xampp\htdocs\kafe\app\Controllers\Kesiswaan.php(17): view('kajur', Array)
+#3 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\Kesiswaan->index()
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kesiswaan))
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-29 12:12:34 --> Invalid file: siswa.php
+#0 C:\xampp\htdocs\kafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siswa.php')
+#1 C:\xampp\htdocs\kafe\system\Common.php(1089): CodeIgniter\View\View->render('siswa', Array, true)
+#2 C:\xampp\htdocs\kafe\app\Controllers\Siswa.php(18): view('siswa', Array)
+#3 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\Siswa->index()
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

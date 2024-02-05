@@ -1,0 +1,190 @@
+CRITICAL - 2023-08-24 08:13:13 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\kafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\kafe\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\kafe\app\Controllers\Home.php(39): view('dashboard')
+#3 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-24 08:19:34 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\kafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\kafe\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\kafe\app\Controllers\Home.php(39): view('dashboard')
+#3 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-24 08:19:35 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\kafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\kafe\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\kafe\app\Controllers\Home.php(39): view('dashboard')
+#3 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-24 08:19:55 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\kafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\kafe\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\kafe\app\Controllers\Home.php(39): view('dashboard')
+#3 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-24 08:20:02 --> Invalid file: v_user.php
+#0 C:\xampp\htdocs\kafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_user.php')
+#1 C:\xampp\htdocs\kafe\system\Common.php(1089): CodeIgniter\View\View->render('v_user', Array, true)
+#2 C:\xampp\htdocs\kafe\app\Controllers\User.php(18): view('v_user', Array)
+#3 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\User->index()
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-24 08:21:21 --> Invalid file: v_user.php
+#0 C:\xampp\htdocs\kafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_user.php')
+#1 C:\xampp\htdocs\kafe\system\Common.php(1089): CodeIgniter\View\View->render('v_user', Array, true)
+#2 C:\xampp\htdocs\kafe\app\Controllers\User.php(18): view('v_user', Array)
+#3 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\User->index()
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-24 08:22:14 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\kafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\kafe\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\kafe\app\Controllers\Home.php(39): view('dashboard')
+#3 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-24 08:24:38 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\kafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\kafe\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\kafe\app\Controllers\Home.php(39): view('dashboard')
+#3 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-24 08:31:03 --> Invalid file: v_pertandingan.php
+#0 C:\xampp\htdocs\kafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_pertandingan....')
+#1 C:\xampp\htdocs\kafe\system\Common.php(1089): CodeIgniter\View\View->render('v_pertandingan', Array, true)
+#2 C:\xampp\htdocs\kafe\app\Controllers\pertandingan.php(20): view('v_pertandingan', Array)
+#3 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\pertandingan->index()
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pertandingan))
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-24 08:31:58 --> Invalid file: v_pertandingan.php
+#0 C:\xampp\htdocs\kafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_pertandingan....')
+#1 C:\xampp\htdocs\kafe\system\Common.php(1089): CodeIgniter\View\View->render('v_pertandingan', Array, true)
+#2 C:\xampp\htdocs\kafe\app\Controllers\pertandingan.php(20): view('v_pertandingan', Array)
+#3 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\pertandingan->index()
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pertandingan))
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-24 08:32:00 --> Invalid file: v_pertandingan.php
+#0 C:\xampp\htdocs\kafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_pertandingan....')
+#1 C:\xampp\htdocs\kafe\system\Common.php(1089): CodeIgniter\View\View->render('v_pertandingan', Array, true)
+#2 C:\xampp\htdocs\kafe\app\Controllers\pertandingan.php(20): view('v_pertandingan', Array)
+#3 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\pertandingan->index()
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pertandingan))
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-24 08:34:06 --> Invalid file: v_pertandingan.php
+#0 C:\xampp\htdocs\kafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_pertandingan....')
+#1 C:\xampp\htdocs\kafe\system\Common.php(1089): CodeIgniter\View\View->render('v_pertandingan', Array, true)
+#2 C:\xampp\htdocs\kafe\app\Controllers\pertandingan.php(20): view('v_pertandingan', Array)
+#3 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\pertandingan->index()
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pertandingan))
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-24 08:38:45 --> Invalid file: v_pertandingan.php
+#0 C:\xampp\htdocs\kafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_pertandingan....')
+#1 C:\xampp\htdocs\kafe\system\Common.php(1089): CodeIgniter\View\View->render('v_pertandingan', Array, true)
+#2 C:\xampp\htdocs\kafe\app\Controllers\pertandingan.php(20): view('v_pertandingan', Array)
+#3 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\pertandingan->index()
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pertandingan))
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-24 08:38:49 --> Invalid file: v_pertandingan.php
+#0 C:\xampp\htdocs\kafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_pertandingan....')
+#1 C:\xampp\htdocs\kafe\system\Common.php(1089): CodeIgniter\View\View->render('v_pertandingan', Array, true)
+#2 C:\xampp\htdocs\kafe\app\Controllers\pertandingan.php(20): view('v_pertandingan', Array)
+#3 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\pertandingan->index()
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pertandingan))
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-24 08:38:50 --> Invalid file: v_pertandingan.php
+#0 C:\xampp\htdocs\kafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_pertandingan....')
+#1 C:\xampp\htdocs\kafe\system\Common.php(1089): CodeIgniter\View\View->render('v_pertandingan', Array, true)
+#2 C:\xampp\htdocs\kafe\app\Controllers\pertandingan.php(20): view('v_pertandingan', Array)
+#3 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\pertandingan->index()
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pertandingan))
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-24 08:38:52 --> Invalid file: v_pertandingan.php
+#0 C:\xampp\htdocs\kafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_pertandingan....')
+#1 C:\xampp\htdocs\kafe\system\Common.php(1089): CodeIgniter\View\View->render('v_pertandingan', Array, true)
+#2 C:\xampp\htdocs\kafe\app\Controllers\pertandingan.php(20): view('v_pertandingan', Array)
+#3 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\pertandingan->index()
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pertandingan))
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-24 08:38:53 --> Invalid file: v_pertandingan.php
+#0 C:\xampp\htdocs\kafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_pertandingan....')
+#1 C:\xampp\htdocs\kafe\system\Common.php(1089): CodeIgniter\View\View->render('v_pertandingan', Array, true)
+#2 C:\xampp\htdocs\kafe\app\Controllers\pertandingan.php(20): view('v_pertandingan', Array)
+#3 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\pertandingan->index()
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pertandingan))
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-24 08:41:18 --> Invalid file: kajur.php
+#0 C:\xampp\htdocs\kafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kajur.php')
+#1 C:\xampp\htdocs\kafe\system\Common.php(1089): CodeIgniter\View\View->render('kajur', Array, true)
+#2 C:\xampp\htdocs\kafe\app\Controllers\Kesiswaan.php(17): view('kajur', Array)
+#3 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\Kesiswaan->index()
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kesiswaan))
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-24 08:47:07 --> Invalid file: v_user.php
+#0 C:\xampp\htdocs\kafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_user.php')
+#1 C:\xampp\htdocs\kafe\system\Common.php(1089): CodeIgniter\View\View->render('v_user', Array, true)
+#2 C:\xampp\htdocs\kafe\app\Controllers\User.php(18): view('v_user', Array)
+#3 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\User->index()
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

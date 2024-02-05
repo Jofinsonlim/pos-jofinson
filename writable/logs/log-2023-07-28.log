@@ -1,0 +1,77 @@
+CRITICAL - 2023-07-28 22:15:19 --> Call to undefined method App\Models\M_model::filterrr
+#0 C:\xampp\htdocs\sidang\app\Controllers\pertandingan.php(143): CodeIgniter\Model->__call('filterrr', Array)
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\pertandingan->cari_semua()
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pertandingan))
+#3 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-07-28 22:15:30 --> Call to undefined method App\Models\M_model::filterrr
+#0 C:\xampp\htdocs\sidang\app\Controllers\pertandingan.php(143): CodeIgniter\Model->__call('filterrr', Array)
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\pertandingan->cari_semua()
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pertandingan))
+#3 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-07-28 22:26:03 --> Class 'App\Controllers\Spreadsheet' not found
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\pertandingan->excel_semua()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pertandingan))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-07-28 23:36:23 --> Table 'sidang.user' doesn't exist
+CRITICAL - 2023-07-28 23:36:23 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\sidang\app\Controllers\Home.php(48): App\Models\M_model->getWhere2('user', Array)
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-28 23:37:46 --> Table 'sidang.user' doesn't exist
+CRITICAL - 2023-07-28 23:37:46 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\sidang\app\Controllers\Home.php(48): App\Models\M_model->getWhere2('user', Array)
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-28 23:39:49 --> Table 'sidang.user' doesn't exist
+CRITICAL - 2023-07-28 23:39:49 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\sidang\app\Controllers\Home.php(48): App\Models\M_model->getWhere2('user', Array)
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-28 23:39:59 --> Table 'sidang.user' doesn't exist
+CRITICAL - 2023-07-28 23:39:59 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\sidang\app\Controllers\Home.php(48): App\Models\M_model->getWhere2('user', Array)
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-28 23:49:18 --> Table 'sidang.user' doesn't exist
+CRITICAL - 2023-07-28 23:49:18 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\sidang\app\Controllers\Home.php(48): App\Models\M_model->getWhere2('user', Array)
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-28 23:49:44 --> Table 'sidang.user' doesn't exist
+CRITICAL - 2023-07-28 23:49:44 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\sidang\app\Controllers\Home.php(48): App\Models\M_model->getWhere2('user', Array)
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

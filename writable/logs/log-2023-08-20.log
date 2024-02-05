@@ -1,0 +1,290 @@
+CRITICAL - 2023-08-20 02:39:52 --> Too few arguments to function App\Controllers\Siswa::hapus(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Siswa->hapus()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 02:41:03 --> Too few arguments to function App\Controllers\Siswa::hapus(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Siswa->hapus()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 02:54:33 --> Invalid file: profile.php
+#0 C:\xampp\htdocs\sidang\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+#1 C:\xampp\htdocs\sidang\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#2 C:\xampp\htdocs\sidang\app\Controllers\Home.php(26): view('profile')
+#3 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#4 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-20 03:08:40 --> Too few arguments to function App\Controllers\Home::aksi_edit_p(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->aksi_edit_p()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:16:58 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\sidang\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/profile')
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/profile')
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-20 03:17:30 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:18:30 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:18:31 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:18:31 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:18:35 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:19:22 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:22:16 --> syntax error, unexpected 'public' (T_PUBLIC), expecting ';' or '{'
+#0 C:\xampp\htdocs\sidang\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/profile')
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/profile')
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-20 03:22:49 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:23:19 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:23:21 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:23:21 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:23:21 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:23:37 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:24:14 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:26:58 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:27:51 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:30:14 --> Cannot redeclare App\Models\M_model::getWhere()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-20 03:30:19 --> Cannot redeclare App\Models\M_model::getWhere()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-20 03:30:24 --> Cannot redeclare App\Models\M_model::getWhere()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-20 03:30:36 --> Cannot redeclare App\Models\M_model::getWhere()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-20 03:30:43 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:30:51 --> Too few arguments to function App\Controllers\Siswa::edit(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Siswa->edit()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:31:35 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:31:41 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:35:00 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:35:05 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:35:18 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:37:12 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:37:20 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:40:24 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:41:03 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:41:45 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:42:40 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:42:41 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:42:44 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:46:25 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:46:31 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-20 03:50:54 --> Too few arguments to function App\Controllers\Home::aksi_edit_p(), 0 passed in C:\xampp\htdocs\sidang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\sidang\system\CodeIgniter.php(832): App\Controllers\Home->aksi_edit_p()
+#1 C:\xampp\htdocs\sidang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sidang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sidang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sidang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

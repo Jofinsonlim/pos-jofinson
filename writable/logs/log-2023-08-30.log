@@ -1,0 +1,42 @@
+CRITICAL - 2023-08-30 11:25:36 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\kafe\app\Views\makanans.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\kafe\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kafe\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kafe\system\Common.php(1089): CodeIgniter\View\View->render('makanans', Array, true)
+#4 C:\xampp\htdocs\kafe\app\Controllers\Home.php(80): view('makanans')
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\Home->makanans()
+#6 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-08-30 19:13:28 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-08-30 19:13:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\kafe\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\kafe\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\kafe\app\Models\M_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\kafe\app\Controllers\Home.php(89): App\Models\M_model->tampil('makanan')
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\Home->makanan()
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2023-08-30 19:13:33 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-08-30 19:13:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\kafe\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\kafe\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\kafe\app\Models\M_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\kafe\app\Controllers\Home.php(79): App\Models\M_model->tampil('makanan')
+#4 C:\xampp\htdocs\kafe\system\CodeIgniter.php(832): App\Controllers\Home->makanans()
+#5 C:\xampp\htdocs\kafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\kafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\kafe\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
